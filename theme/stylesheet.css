@@ -1,0 +1,471 @@
+/* GENERAL */
+body
+{  
+  font: 1em "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+div#list
+{
+  text-align: left;
+}
+img 
+{ 
+	border: none; 
+} 
+
+.loginheadercorners
+{
+	background-color: #8e0c08;
+	/* border: 1px solid black ; */
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.loginmaincorners
+{
+	/*background-color: #ffffff;*/
+	border: 1px solid #8e0c08; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+/* HEADERS */
+
+h1 
+{ 
+  font: bold 2em "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  margin-top: 25px;
+}
+h2
+{  
+  font: bold 1.5em "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  margin-top: 11px;
+}
+h3
+{  
+  font: bold 1.25em "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+  margin-top: 11px;
+}
+
+div#headerbg{
+	width: 100%;
+	height: 130px;
+	background: url('header_bg.png') repeat;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#header{
+	width: 100%;
+	height: 130px;
+	background: url('trans_logo.png') no-repeat 10px 20px;
+	margin-left: 0;
+	margin-right: auto;
+}
+
+/* LOGON */
+div#logon
+{ 
+  text-align: center;
+  font-size: .8em;
+  color: #8e0c08;
+}
+
+/* REQUIRED */
+.required
+{ 
+  text-align: right;
+  font-size: 1em;
+  color: #8e0c08;
+  font-weight: bold;
+}
+
+.red
+{ 
+  font-size: 1em;
+  color: #8e0c08;
+}
+
+.eitheror
+{ 
+  text-align: right;
+  font-size: 1em;
+  color: blue;
+  font-weight: bold;
+}
+
+.tickbox
+{ 
+  text-align: right;
+  font-size: 1.1em;
+  color: black;
+  font-weight: bold;
+}
+
+
+/* LINKS */
+a:link, a:visited, a:active
+{
+	color:#8e0c08;
+}
+
+a:hover
+{
+	color:#000000;
+	text-decoration: none;
+}
+
+/* CONTAINERS */
+div#container
+{
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: solid;
+  padding: 10px;
+  border-color: gray gray gray gray;
+  top: 0px;
+	width: 65%;
+  text-align: center;
+  background-color: white;
+}
+
+div#welcome
+{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  top: 0px;
+  width: 50%;
+	text-align: center;
+}
+
+#menu, #menu a
+{
+	font-size: 10pt;
+	color: #ddd;	
+	text-decoration: none;
+	font-weight: bold; 
+}
+
+#menu a:hover
+{
+	color: #999;	
+}
+
+#leftmenu
+{
+	float: left;	
+}
+
+#rightmenu
+{
+	float: right;	
+}
+
+table.infobox-container td
+{
+	width: 1%;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  border-collapse: collapse;
+  background-color: white;
+  font: 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+table.infobox
+{
+  width: 100%;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  border-collapse: collapse;
+  background-color: white;
+  font: bold 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+table.infobox td
+{
+  border-width: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  border-style: dotted dotted dotted dotted;
+  border-color: gray gray gray gray;
+  background-color: white;
+  height: 25px;
+  font: 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+table.darkbox
+{
+  width: 100%;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  border-collapse: collapse;
+  background-color: white;
+  font: bold 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+table.darkbox td
+{
+  border-width: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  border-style: solid solid solid solid;
+  border-color: gray gray gray gray;
+  background-color: white;
+  height: 25px;
+  font: 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+/* purchase order styles */
+
+div#pocontainer
+{
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: solid;
+  padding: 10px;
+  border-color: gray gray gray gray;
+  top: 0px;
+	width: 50%;
+  background-color: white;
+}
+
+div#podotted
+{
+  margin-left: auto;
+  margin-right: auto;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: dotted;
+  padding: 10px;
+  border-color: gray gray gray gray;
+  top: 0px;
+  float: left;
+  background-color: white;
+}
+
+table.pobox
+{
+  width: 100%;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  border-collapse: collapse;
+  background-color: white;
+  font: bold 9pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+ 
+table.pobox th
+{
+  border-width: 0px 0px 0px 0px;
+  padding: 0px 0px 8px 0px;
+  border-style: none none solid none;
+  border-color: gray gray gray gray;
+  background-color: white;
+  height: 25px;
+  font: 9pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+ 
+table.pobox td
+{
+  border-width: 0px 0px 0px 0px;
+  padding: 8px 0px 0px 0px;
+  background-color: white;
+  height: 25px;
+  font: 10pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+.poborder
+{
+	padding: 0px 0px 0px 0px;
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: gray gray gray gray;
+  background-color: white;
+  height: 25px;
+  font: 10pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+
+/* exam results styles */
+
+table.results
+{
+  width: 500px;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  border-collapse: collapse;
+  background-color: white;
+}
+table.results th
+{
+  border-width: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  background-color: white;
+  font: bold 9pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+table.results td
+{
+  border-width: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  border-style: dotted dotted dotted dotted;
+  border-color: gray gray gray gray;
+  background-color: white;
+  font: 9pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+table.results-address
+{
+  margin-top: 10px;
+  width: 500px;
+  border-width: 1px 1px 1px 1px;
+  border-spacing: 2px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  border-collapse: collapse;
+  background-color: white;
+}
+table.results-address td
+{
+  border-width: 1px 1px 1px 1px;
+  padding: 1px 1px 1px 1px;
+  border-style: none none none none;
+  border-color: gray gray gray gray;
+  background-color: white;
+  font: 9pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+div#gpasec
+{ margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  width: 500px;
+  text-align: center;
+  background-color: white;
+}
+.gpa
+{
+  font-weight: bold;
+}
+.address
+{
+  text-align: left;
+}
+
+/* end of exam results styles */
+
+div.freeblock 
+{
+	width: 15%;
+  border-color: black black black black;
+	border-width: 1px 3px 3px 1px;
+	border-style: solid;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 0px 10px 0px;
+	font: 10pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	clear: right;
+}
+
+div.bigfreeblock 
+{
+	width: 30%;
+	float: center;
+  border-color: black black black black;
+	border-width: 1px 3px 3px 1px;
+	border-style: solid;
+	padding: 10px 10px 10px 20px;
+	margin: 10px 0px 10px 0px;
+	font: 10pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	clear: right;
+}
+
+
+div.rightblock 
+{
+	position:relative;
+	right:3%; 
+	float: right;
+	width: 15%;
+  border-color: black black black black;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+	font: 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	clear: right;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+div.leftblock 
+{
+	position:relative;
+	left:3%; 
+	float: left;
+	width: 15%;
+  border-color: black black black black;
+	border-width: 1px 1px 1px 1px;
+	border-style: solid;
+	padding: 10px;
+	margin: 10px 0px 10px 0px;
+	font: 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+	text-align: center;
+	vertical-align: middle;
+	clear: left;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.loginheadercorners
+{
+	background-color: #8e0c08;
+}
+
+.loginmaincorners
+{
+	/*background-color: #ffffff;*/
+	border: 1px solid #8e0c08; 
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+
+
+/* LOGS */
+table.logs 
+{
+	border-width: 1px 1px 1px 1px;
+	border-spacing: 2px;
+	border-style: none none none none;
+	border-color: gray gray gray gray;
+	border-collapse: collapse;
+	background-color: white;
+}
+table.logs td 
+{
+	border-width: 1px 1px 1px 1px;
+	padding: 2px 20px 2px 10px;
+	border-style: dotted dotted dotted dotted;
+	border-color: gray gray gray gray;
+	background-color: white;
+  font: 8pt "Lucida Sans Unicode", Arial, Helvetica, sans-serif;
+}
+
+.glidetext{
+	position: relative;
+	/*Set initial position of your text. Make it just enough to hide the text from view:*/
+	right: -500px;
+}
