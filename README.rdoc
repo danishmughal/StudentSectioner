@@ -1,0 +1,5 @@
+A basic student sectioning application built with MySQL and PHP.
+
+To run, create a database called 'ss' and run the SQL file included to set up the database. You may need to modify the file to accomodate your database.
+
+Tested and running on Apache 2.2.22 – Mysql 5.5.24 – PHP 5.3.13.
